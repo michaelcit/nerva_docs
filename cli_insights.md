@@ -1,12 +1,14 @@
+# Nerva CLI Insights
+
 **INDEX:**
 
-1. A Basic Walthrough
+1. A Basic Walkthrough
 2. Common Commands
-3. Common Errors and Solutions
+3. Common Errors and How to Solve Them
 4. Some Things to Consider
 
 
-# CLI Insights Part 1 - A Basic Walkthrough with some explanations
+# 1 - A Basic Walkthrough
 
 Mining through a command line interface (the black screen terminal with all the scrolling text) can be daunting for a new user. After a while you will find this way of operating comfortable, fast, flexible. You'll prefer a CLI to feel at home.
 But until then, you will have many questions and see a lot of text scrolling by that you don't understand.
@@ -64,11 +66,11 @@ Then, to exit the program, simply type:
 ``exit``
 You will then see several lines of info that shows you everything is shutting down neatly.
 
-# CLI Insights Part 2 - Common Commands
+# 2 - Common Commands
 
 
 
-# CLI Insights Part 3 - Common errors and how to solve them
+# 3 - Common Errors and How to Solve Them
 
 * Problem: Your blockchain doesn't fully sync. It stays behind a fixed number of blocks.
   * Solution: Check your system's clock. If you clock's time is off from the network time by more than the future time limit,the local daemon will reject the block.
@@ -82,7 +84,7 @@ You will then see several lines of info that shows you everything is shutting do
 
 
 
-# CLI Insights Part 4 - Angrywasp speaks: Some Considerations
+# 4 - Some Things to Consider
 
 ## Concerning Nethash
 
