@@ -1,4 +1,4 @@
-INDEX:
+**INDEX:**
 
 1. A Basic Walthrough
 2. Common Commands
