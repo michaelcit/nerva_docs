@@ -79,8 +79,8 @@ You will then see several lines of info that shows you everything is shutting do
 
 ## nerva-wallet-cli commands
 
-* ``transfer`` allows you to send Nerva to any Nerva address as follows: ``transfer 'amount' 'address' [payment ID]``
-no punctuation marks required, payment ID is optional
+* ``transfer`` allows you to send Nerva to any Nerva address as follows: ``transfer <address> <amount> <payment ID>``
+no < >  required, payment ID is optional
 
 * ``balance`` shows your wallet's current balance
 
@@ -117,9 +117,7 @@ reflect hashrate because it can collect info on the shares submitted to the pool
 
 ## Concerning Addresses
 
-The standard transfer command goes as follows:
-``transfer <address> <amount> -p <payment_id>``
-
+Nerva has different types of addresses:
 A ``normal address`` for Nerva starts with ``NV``. If you send coins to an exchange or a merchant you have to add a payment ID to this kind of address. Due to the unlikability and untraceability, they will need this to know the payment comes from you. Alternatively, you can use an ``integrated address`` which starts with ``Niz``. Don't ask how the Z got there. This is likely a wrongly configured prefix; when the chain launched with it, it stayed forever. Integrated addresses don't require a separate payment ID because it is...integrated into it. A third kind of address is a ``Subaddress``. This is what you get if you create more than one address for a wallet. Subaddresses start with ``NS``. Subaddresses are the next generation of privacy enhancing address.
 
 To summarize:
