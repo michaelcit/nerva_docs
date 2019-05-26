@@ -2,7 +2,7 @@
 
 Mining through a command line interface (the black screen terminal with all the scrolling text) can be daunting for a new user. After a while you will find this way of operating comfortable, fast, flexible. You'll prefer a CLI to feel at home.
 But until then, you will have many questions and see a lot of text scrolling by that you don't understand.
-Therefore, here is a small guide that could answer some questions. Everything in this article was performed on Windows 8 in a CLI tool called ``Cmder`` which simply replaces the traditional Windows command prompt. 
+Therefore, here is a small guide that could answer some questions. Everything in this article was performed on Windows 8 in a CLI tool called ``Cmder`` which simply replaces the traditional Windows Command Prompt. If you are interested in improving your Windows Command Prompt experience, Cmder can be found at https://cmder.net/. The mini version is what you want.  
 
 ## Let's get started ![picture 1 - Nerva CLI Startup](https://i.imgur.com/mXNhf5W.png)
 
