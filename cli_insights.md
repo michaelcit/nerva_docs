@@ -14,7 +14,9 @@ Mining through a command line interface (the black screen terminal with all the 
 But until then, you will have many questions and see a lot of text scrolling by that you don't understand.
 Therefore, here is a small guide that could answer some questions. Everything in this article was performed on Windows 8 in a CLI tool called ``Cmder`` which simply replaces the traditional Windows Command Prompt. If you are interested in improving your Windows Command Prompt experience, Cmder can be found at https://cmder.net/. The mini version is what you want.  
 
-## Let's get started ![picture 1 - Nerva CLI Startup](https://i.imgur.com/mXNhf5W.png)
+## Let's get started 
+
+![picture 1 - Nerva CLI Startup](https://i.imgur.com/mXNhf5W.png)
 
 We start our Nerva Daemon, in this case located in the folder ``H:\Nerva``, by executing ``nervad.exe``.
 Right from the start you see a lot of text scrolling down while the daemon starts up all the necessary processes.
@@ -30,12 +32,18 @@ The text you see is formatted as follows: <timestamp> <source id> <level> <categ
 * The `source line` points to a file and a specific line of code in it 
 * The `message` explains what is happening in the startup processes
 
-## Syncing the chain ![picture 2 - Nerva CLI Synchronization](https://i.imgur.com/w0Qzprh.png)
+## Syncing the chain 
+
+![picture 2 - Nerva CLI Synchronization](https://i.imgur.com/w0Qzprh.png)
+
 With all the necessary processes booted up, the Nerva daemon is now ready to check out how far along your copy of the blockchain is.
 If it finds that your copy of the database has not caught up to the current block, it will tell you how far behind you are.
 After that, it will start synchronizing your chain with those of the peers you connect to. This means that your daemon will send requests to other people's daemon to ask for info.
 
-## The Joy of a Fully Synced Chain ![picture 3 - Nerva CLI Start Stop Exit](https://i.imgur.com/KukpuzY.png)
+## The Joy of a Fully Synced Chain 
+
+![picture 3 - Nerva CLI Start Stop Exit](https://i.imgur.com/KukpuzY.png)
+
 Once your chain has finished its synchronization, it will let you know by showing SYNCHRONIZED OK.
 This is the point where you can start mining. To mine you type:
 ``start_mining <address> #``  
