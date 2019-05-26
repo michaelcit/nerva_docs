@@ -74,7 +74,17 @@ You will then see several lines of info that shows you everything is shutting do
 
 # 2 - Common Commands
 
+## nervad commands
 
+
+## nerva-wallet-cli commands
+
+* ``transfer`` allows you to send Nerva to any Nerva address as follows: ``transfer 'amount' 'address' [payment ID]``
+no punctuation marks required, payment ID is optional
+
+* ``balance`` shows your wallet's current balance
+
+* ````
 
 # 3 - Common Errors and How to Solve Them
 
