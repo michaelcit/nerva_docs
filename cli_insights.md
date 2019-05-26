@@ -1,3 +1,11 @@
+INDEX:
+
+1. A Basic Walthrough
+2. Common Commands
+3. Common Errors and Solutions
+4. Some Things to Consider
+
+
 # CLI Insights Part 1 - A Basic Walkthrough with some explanations
 
 Mining through a command line interface (the black screen terminal with all the scrolling text) can be daunting for a new user. After a while you will find this way of operating comfortable, fast, flexible. You'll prefer a CLI to feel at home.
@@ -8,8 +16,8 @@ Therefore, here is a small guide that could answer some questions. Everything in
 
 We start our Nerva Daemon, in this case located in the folder ``H:\Nerva``, by executing ``nervad.exe``.
 Right from the start you see a lot of text scrolling down while the daemon starts up all the necessary processes.
-The first few lines initialize the CryptoNote core, which is the base protocol of all CryptoNote coins.
-The lines after that are all about booting up the servers required for accepting network requests and Remote Procedure Call (RPC) requests, which basically means the peer-to-peer stuff on the network. 
+The first few lines initialize the CryptoNote core module, which is the base protocol of all CryptoNote coins.
+The lines after that are all about booting up the servers required for accepting network requests and Remote Procedure Call (RPC) requests, which basically means the peer-to-peer stuff on the network or in simpler terms: this lets your computer talk to other computers in the Nerva network. 
 
 The text you see is formatted as follows: <timestamp> <source id> <level> <category> <source line> <message>
 * Every announcement has a `time stamp`: YYYY-MM-DD followed by the hour HH:MM:SS.sss (yes, miliseconds)
@@ -56,8 +64,11 @@ Then, to exit the program, simply type:
 ``exit``
 You will then see several lines of info that shows you everything is shutting down neatly.
 
+# CLI Insights Part 2 - Common Commands
 
-# CLI Insights Part 2 - Common errors and how to solve them
+
+
+# CLI Insights Part 3 - Common errors and how to solve them
 
 * Problem: Your blockchain doesn't fully sync. It stays behind a fixed number of blocks.
   * Solution: Check your system's clock. If you clock's time is off from the network time by more than the future time limit,the local daemon will reject the block.
@@ -71,7 +82,7 @@ You will then see several lines of info that shows you everything is shutting do
 
 
 
-# CLI Insights Part 3 - Angrywasp speaks: Some Considerations
+# CLI Insights Part 4 - Angrywasp speaks: Some Considerations
 
 ## Concerning Nethash
 
