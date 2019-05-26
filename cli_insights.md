@@ -27,7 +27,7 @@ The text you see is formatted as follows: <timestamp> <source id> <level> <categ
 * Every announcement has a `time stamp`: YYYY-MM-DD followed by the hour HH:MM:SS.sss (yes, miliseconds)
 * The `source ID` is a number that identifies a thread during startup or shutdown, while SRV_MAIN, P2P1, PSP4 etc are basically log tags indicating a source for the message.
 * INFO is a `log level indicator`. Other possibilities are WARNINGs and ERRORs. 
-  Only errors require you to take action. But these are supposedly rare so don't worry about them.
+  Only errors require you to take action. But these are supposedly rare so don't worry about it.
 * global is a `category` in the log file
 * The `source line` points to a file and a specific line of code in it 
 * The `message` explains what is happening in the startup processes
@@ -77,6 +77,12 @@ You will then see several lines of info that shows you everything is shutting do
 
 
 # 3 - Common Errors and How to Solve Them
+
+* Problem: The daemon (``nervad``) does not start at all. Nothing happens.
+  * Solution: To troubleshoot this, you will need more info. Start the daemon again as follows: ``nervad.exe --log-level 1``
+  This will show why it does not start. An example can be seen below. Starting the daemon does nothing; starting it with the ``--log-level 1`` specification it shows that the CPU of this system is too old an no longer supported by Nerva's current build. 
+  
+  ![Troubleshooting a non-starting daemon](https://imgur.com/Ufz8Sne)
 
 * Problem: Your blockchain doesn't fully sync. It stays behind a fixed number of blocks.
   * Solution: Check your system's clock. If you clock's time is off from the network time by more than the future time limit,the local daemon will reject the block.
