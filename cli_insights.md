@@ -36,9 +36,7 @@ The text you see is formatted as follows: <timestamp> <source id> <level> <categ
 
 ![picture 2 - Nerva CLI Synchronization](https://i.imgur.com/w0Qzprh.png)
 
-With all the necessary processes booted up, the Nerva daemon is now ready to check out how far along your copy of the blockchain is.
-If it finds that your copy of the database has not caught up to the current block, it will tell you how far behind you are.
-After that, it will start synchronizing your chain with those of the peers you connect to. This means that your daemon will send requests to other people's daemon to ask for info.
+With all the necessary processes booted up, the Nerva daemon is now ready to check how far along your copy of the blockchain is. If it finds that your copy of the database has not caught up to the current block, it will tell you how far behind you are. After that, it will start synchronizing your chain with those of the peers you connect to. This means that your daemon will send requests to other people's daemon to ask for info. If you do not wish to synchronize the blockchain database from scratch, you can use the ``quicksync`` function which allows you to download a partial copy of the blockchain and import this to your computer.
 
 ## The Joy of a Fully Synced Chain 
 
