@@ -78,11 +78,8 @@ You will then see several lines of info that shows you everything is shutting do
 
 # 3 - Common Errors and How to Solve Them
 
-* Problem: The daemon (``nervad``) does not start at all. Nothing happens.
-  * Solution: To troubleshoot this, you will need more info. Start the daemon again as follows: ``nervad.exe --log-level 1``
-  This will show why it does not start. An example can be seen below. Starting the daemon does nothing; starting it with the ``--log-level 1`` specification it shows that the CPU of this system is too old an no longer supported by Nerva's current build. 
-
-![Troubleshooting 1](https://imgur.com/Ufz8Sne)
+* Problem: Your daemon (``nervad``) does not start at all. Nothing happens.
+  * Solution: To troubleshoot this issue, you will need more info. Start the daemon again as follows: ``nervad.exe --log-level 1`` This will show why it does not start. After that you can take action. 
 
 * Problem: Your blockchain doesn't fully sync. It stays behind a fixed number of blocks.
   * Solution: Check your system's clock. If you clock's time is off from the network time by more than the future time limit,the local daemon will reject the block.
