@@ -10,9 +10,7 @@
 
 # 1 - A Basic Walkthrough
 
-Mining through a command line interface (the black screen terminal with all the scrolling text) can be daunting for a new user. After a while you will find this way of operating comfortable, fast, flexible. You'll prefer a CLI to feel at home.
-But until then, you will have many questions and see a lot of text scrolling by that you don't understand.
-Therefore, here is a small guide that could answer some questions. Everything in this article was performed on Windows 8 in a CLI tool called ``Cmder`` which simply replaces the traditional Windows Command Prompt. If you are interested in improving your Windows Command Prompt experience, Cmder can be found at https://cmder.net/. The mini version is what you want.  
+Mining through a command line interface (CLI, the black screen terminal with all the scrolling text) can be daunting for a new user. After a while you will find this way of operating comfortable, fast, flexible. You'll prefer a CLI to feel at home. But until then, you will have many questions and see a lot of text scrolling by that you don't understand. Therefore, here is a small guide that could answer some questions. Everything in this article was performed on Windows 8 in a CLI tool called ``Cmder`` which simply replaces the traditional Windows Command Prompt. If you are interested in improving your Windows Command Prompt experience, Cmder can be found at https://cmder.net/. The mini version is what you want.  
 
 ## Let's get started 
 
@@ -149,6 +147,9 @@ Nerva is a project in full development. Every now and again the developers will 
 * Question: Will the exchange support this hard fork?
   * Answer: Yes. The Nerva developers are in close communication with every exchange that lists Nerva. Scheduled forks are communicated well in advance to exchanges to make everything go smooth.
 
+## Concerning Seed Nodes
+
+The seed nodes are the basic nodes in the Nerva network. When you start your daemon for the first time, it will connect to the seed nodes to get started. Seed nodes are really nothing special: They are IP addresses hardcoded into the daemon, so if you run out of connections, you know at least a few nodes you can contact to. Nerva developers are actively looking at alternate ways of getting a list of nodes you can connect to because seed nodes introduce a certain level of centralization. DNS-based node lists and port scanning to find other Nerva daemons are several of the options that are being considered.
 
 
 
