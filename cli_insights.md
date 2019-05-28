@@ -149,7 +149,7 @@ Nerva is a project in full development. Every now and again the developers will 
 
 ## Concerning Seed Nodes
 
-The seed nodes are the basic nodes in the Nerva network. When you start your daemon for the first time, it will connect to the seed nodes to get started. Seed nodes are really nothing special: They are IP addresses hardcoded into the daemon, so if you run out of connections, you know at least a few nodes you can contact to. Nerva developers are actively looking at alternate ways of getting a list of nodes you can connect to because seed nodes introduce a certain level of centralization. DNS-based node lists and port scanning to find other Nerva daemons are several of the options that are being considered.
+The seed nodes are the basic nodes in the Nerva network. When you start your daemon for the first time, it will connect to the seed nodes to get started. Seed nodes are really nothing special: They are IP addresses hardcoded into the daemon, so if you run out of connections, you know at least a few nodes you can contact. Nerva developers are actively looking at alternate ways of getting a list of nodes you can connect to because seed nodes introduce a certain level of centralization. DNS-based node lists and port scanning to find other Nerva daemons are several of the options that are being considered.
 
 
 
