@@ -151,6 +151,10 @@ Nerva is a project in full development. Every now and again the developers will 
 
 The seed nodes are the basic nodes in the Nerva network. When you start your daemon for the first time, it will connect to the seed nodes to get started. Seed nodes are really nothing special: They are IP addresses hardcoded into the daemon, so if you run out of connections, you know at least a few nodes you can contact. Nerva developers are actively looking at alternate ways of getting a list of nodes you can connect to because seed nodes introduce a certain level of centralization. DNS-based node lists and port scanning to find other Nerva daemons are several of the options that are being considered.
 
+## Concerning the Node Map
+
+Nerva has a node map which shows you approximately where the full nodes are in the world. Isn't that bad for privacy? First and foremost, there is the possibility to opt-out by starting the daemon with the ``--no-analytics`` flag. Besides that, no personally identifiable information is being stored and you always have the option to run the node from behind a proxy or VPN if you are worried.  The analytics aren't really analytics either: it's a simple matter of geolocating IP addresses which anyone could do with their own node. In fact, a core member playing around with this is exactly how the node map came to be. The functionality was later added to explicitly support it in the node.
+
 
 
 
