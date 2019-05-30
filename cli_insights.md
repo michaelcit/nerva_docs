@@ -74,6 +74,24 @@ You will then see several lines of info that shows you everything is shutting do
 
 ## nervad commands
 
+``help`` shows a list of all possible commands
+
+``version`` shows the version of your daemon
+
+``start_mining <addr> [<threads>|auto]`` starts mining to the specified address and chooses the optimum amount of threads for you unless you prefer to choose the amount of threads yourself, i.e. the [<threads>|auto] is optional
+
+``stop_mining`` stops mining
+
+``exit`` safely exits the daemon
+
+``in_peers <max number>`` lets you change the maximum amount of incoming connections
+``out_peers <max number>`` lets you change the maximum amount of outcoming connections
+``pop_blocks <nblocks>`` lets you remove the last 'n' blocks in case you managed to fork off the main chain
+``print_height`` shows the current block height of the blockchain
+``print_generated_coins`` shows the total amount of coins that has been created so far
+``show_hr`` shows your hashrate
+``sync_info`` shows your peers and the amount of data you are sending/receiving
+
 
 ## nerva-wallet-cli commands
 
