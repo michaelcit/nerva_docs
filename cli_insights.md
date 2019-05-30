@@ -105,8 +105,7 @@ no < >  required, payment ID is optional
 
 ## Concerning Nethash
 
-As mentioned earlier, when you type ``status`` in the daemon one of the things you see is the network's total hashrate.
-It is a very common misconception that this nethash actually represents the network hashrate. It doesn't and it's not even close. The nethash is derived from the current difficulty, which is in turn derived from the block time. Add to that the way the Difficulty Adjusting Algorithm (DAA)responds to the block time, which it does at every block, and you have spiking nethash. 
+As mentioned earlier, when you type ``status`` in the daemon, one of the things you see is the network's total hashrate. This value is only an estimate, so it can sometimes fluctuate substantially. The total nethash is derived from the current difficulty, which is in turn derived from the block time. Add to that the way the Difficulty Adjusting Algorithm (DAA)responds to the block time, which it does at every block, and you have spiking nethash. 
 
 ```An example: blocks get found quickly, so it looks like the total nethash has increased, the DAA adjusts to compensate, blocks slow down and it looks like nethash has decreased. Up and down.```
 
